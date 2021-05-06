@@ -1,3 +1,17 @@
 body{
     background-color: dimgray; 
 }
+
+h1{
+    font:bold;
+    text-align: center;
+    color:fuchsia;
+}
+
+h2{
+    color: fuchsia;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: lightgrey;
+
+}
