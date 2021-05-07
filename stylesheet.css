@@ -1,3 +1,9 @@
+* {
+    display:block;
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: dimgray; 
 }
@@ -13,5 +19,47 @@ h2{
     border-radius: 15px;
     border-style: solid;
     border-color: lightgrey;
+}
 
+#intro  {
+    color:aliceblue;
+    text-align: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#header {
+    color:fuchsia;
+    width: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    border: silver;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -30px;
+    border-style: groove;
+}
+
+.pre-text {
+    color: aliceblue;
+    background-color: fuchsia;
+
+}
+
+.box-discriptions {
+    color: fuchsia;
+    font-weight: bold;
+    
+}
+
+#box1 {
+    width: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    border: silver solid 5px;
+    border-radius: 10px;
+    border-style: dashed;
+    position: relative;
 }
