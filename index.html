@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Mini Project 02</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Project 02</title>
+    
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -13,8 +14,8 @@
     <p id="intro">
     Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet from below and it'll automatacly select all of the code for you to copy.
     </p>
-
-    <secetion class="box" class="cards">
+  <section id="boxes">
+    <div class="box" class="cards">
         <header id="header"> Flexbox Row</header>
         <p class="box-discriptions">Use these three properties to create a Flexbox row layout.</p>
         <pre class="pre-text">
@@ -24,9 +25,9 @@
             flex-wrap: wrap;
         }
         </pre>
-    </secetion>
+    </div>
 
-    <section class="box" class="cards">
+    <div class="box" class="cards">
         <header id="header">Flexbox Column</header>
         <p class="box-discriptions">Use this to create a Flexbox column layout.</p>
         <pre class="pre-text">
@@ -35,9 +36,9 @@
                 flex-direction: column
             }
         </pre>
-    </section>
+    </div>
     
-    <section class="box" class="cards">
+    <div class="box" class="cards">
         <header id="header">CSS Grid layout</header>
         <p class="box-discriptions">Build a 12-column layout using CSS Grid</p>
         <pre class="pre-text">
@@ -48,9 +49,9 @@
             repeat(12, ifr);
             }
         </pre>
-    </section>
+    </div>
 
-    <section class="box" class="cards">
+    <div class="box" class="cards">
         <header id="header">Linear Gradients</header>
         <p class="box-discriptions">This will create a background linear gradient from top to bottom.</p>
         <pre class="pre-text">
@@ -62,9 +63,9 @@
                 ):
             }
         </pre>
-    </section>
+    </div>
 
-    <section class="box" class="cards">
+    <div class="box" class="cards">
         <header id="header">Box Transition Glow</header>
         <p class="box-discriptions">Use transition and box shadows to glow on hover.</p>
         <pre class="pre-text">
@@ -80,9 +81,9 @@
                 rbga (232, 102, 236, 1);
             }
         </pre>
-    </section>
+    </div>
 
-    <section class="box" class="cards">
+    <div class="box" class="cards">
         <header id="header">Overlay Card with Title</header>
         <p class="box-discriptions"> Use position and negative margins to raise elements higher than their natural starting point.</p>
         <pre class="pre-text">
@@ -91,8 +92,8 @@
                 margin-top: -20px;
             }
         </pre>
-    </section>
-    
+    </div>
+  </section>
 
 </body>
 </html>

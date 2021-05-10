@@ -2,55 +2,65 @@
     display:block;
     box-sizing: border-box;
     padding: 0;
-    margin: 0%;
+    margin: 3%;
 }
 
-
+#boxes {
+    display: block;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px 6px;
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 body{
-    background-color: dimgray; 
+    background-color: green; 
 }
 
 h1{
     font:bold;
     text-align: center;
-    color:fuchsia;
+    color:black;
 }
 
 h2{
-    color: fuchsia;
+    color: black;
     border-radius: 15px;
     border-style: solid;
-    border-color: lightgrey;
+    border-color: purple;
 }
 
 #intro  {
-    color:aliceblue;
+    color:black;
     text-align: center;
     padding: 10px;
     flex-wrap: wrap;
 }
 
 #header {
-    color:fuchsia;
+    color:black;
     width: fit-content;
     padding-left: 5%;
     padding-right: 5%;
     margin: auto;
-    border: silver;
+    border:purple;
     border-radius: 10px;
     position: relative;
-    margin-top: -30px;
+    margin-top: -37px;
     border-style: groove;
 }
 
 .pre-text {
     color: aliceblue;
-    background-color: fuchsia;
-
+    background-color: black;
+    user-select: all;
+    text-align: left;
 }
 
 .box-discriptions {
-    color: fuchsia;
+    color: black;
     font-weight: bold;
     position: relative;
     
@@ -62,13 +72,20 @@ h2{
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 15px;
-    margin: 15px;
-    border: silver solid 5px;
+    margin: 15px 5px;
+    border: purple solid 5px;
     border-radius: 10px;
     border-style: dashed;
-    
+    flex: 1 1 400px;
+    box-shadow: black;
+
 }
 
-section {
-    display:block;
+.box :hover {
+    color:purple;
 }
+
+title { 
+    display: none;
+}
+
